@@ -1,0 +1,41 @@
+body{
+ margin:0;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:45px;
+  font-family:Georgia;
+  text-align:center;
+  border: 10px solid;
+  margin:0;
+  padding:20px;
+}
+ol {
+  border-right:10px solid;
+  width:100px;
+  height: 96%;
+  padding:30px;
+  margin:0;
+}
+h2 {
+  margin-bottom: 25px;
+  font-size:28px;
+
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid ol{
+  padding-left:33px;
+}
+
+#grid #article{
+  padding-left:50px;
+  display:grid;
+  grid-auto-rows: autoplay;
+}
